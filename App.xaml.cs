@@ -12,6 +12,7 @@ public partial class App : Application
             BarTextColor = Colors.Blue
         };
         //MainPage = navPage;
-        MainPage = new FlyoutPageDemo();
+        //MainPage = new FlyoutPageDemo();
+        MainPage = new TabbedPageDemo();
     }
 }
