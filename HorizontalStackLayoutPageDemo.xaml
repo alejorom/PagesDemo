@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagesDemo.HorizontalStackLayoutPageDemo"
+             Title="HorizontalStackLayoutPageDemo">
+    <HorizontalStackLayout>
+        <Label 
+            Text="Ich habe hunger!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            BackgroundColor="LightYellow"/>
+        <Label 
+            Text="Du bist eine frau!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            BackgroundColor="LightSkyBlue"/>
+        <Label 
+            Text="Sie liest die Zeitung!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            BackgroundColor="LightPink"/>
+        <Label 
+            Text="Eine ente isst einen apfel!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            BackgroundColor="LightSeaGreen"/>
+    </HorizontalStackLayout>
+</ContentPage>
