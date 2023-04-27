@@ -15,6 +15,7 @@ public partial class App : Application
         //MainPage = new FlyoutPageDemo();
         //MainPage = new TabbedPageDemo();
         //MainPage = new StackLayoutPageDemo();
-        MainPage = new HorizontalStackLayoutPageDemo();
+        //MainPage = new HorizontalStackLayoutPageDemo();
+        MainPage = new VerticalStackLayoutPageDemo();
     }
 }
