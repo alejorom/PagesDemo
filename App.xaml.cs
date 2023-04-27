@@ -13,6 +13,7 @@ public partial class App : Application
         };
         //MainPage = navPage;
         //MainPage = new FlyoutPageDemo();
-        MainPage = new TabbedPageDemo();
+        //MainPage = new TabbedPageDemo();
+        MainPage = new StackLayoutPageDemo();
     }
 }
