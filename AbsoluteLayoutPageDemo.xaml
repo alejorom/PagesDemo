@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagesDemo.AbsoluteLayoutPageDemo"
+             Title="AbsoluteLayoutPageDemo">
+    <AbsoluteLayout>
+        <Button 
+            Text="Bienvenido a .NET MAUI!"
+            AbsoluteLayout.LayoutBounds="0,0,100,.5"
+            AbsoluteLayout.LayoutFlags="HeightProportional"
+            BackgroundColor="LightCoral"/>
+        <Button
+            Text="Wilkkommen in .NET MAUI!"
+            AbsoluteLayout.LayoutBounds="140,400,250,100"
+            BackgroundColor="DarkBlue"/>
+        <Button
+            Text="Wellcome to .NET MAUI!"
+            AbsoluteLayout.LayoutBounds="0,450,.5,.5"
+            AbsoluteLayout.LayoutFlags="SizeProportional"
+            BackgroundColor="DarkGreen"/>
+        <Button
+            Text="Bienvenu à .NET MAUI!"
+            AbsoluteLayout.LayoutBounds=".7,200,.6,.2"
+            AbsoluteLayout.LayoutFlags="SizeProportional,XProportional"
+            BackgroundColor="DarkKhaki"/>
+    </AbsoluteLayout>
+</ContentPage>
