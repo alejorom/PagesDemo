@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagesDemo.FlexLayoutPageDemo"
+             Title="FlexLayoutPageDemo">
+    <FlexLayout Direction="Column" >
+        <Button 
+            Text="Bienvenido a .NET MAUI!"
+            BackgroundColor="LightCoral" />
+
+        <FlexLayout FlexLayout.Grow="1">
+            <Label Text="Hallo Flyout Page" 
+                   BackgroundColor="Gray"
+                   FlexLayout.Grow="1"
+                   HorizontalTextAlignment="Center" 
+                   VerticalTextAlignment="Center"/>
+            <BoxView FlexLayout.Basis="50"
+                     FlexLayout.Order="-1"
+                     Color="Red"/>
+            <BoxView FlexLayout.Basis="50"
+                     Color="Green"/>
+        </FlexLayout>
+
+        <Button
+            Text="Willkommen in .NET MAUI!"
+            BackgroundColor="DarkBlue"/>
+    </FlexLayout>
+</ContentPage>
